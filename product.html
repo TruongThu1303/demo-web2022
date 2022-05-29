@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<style>
+    .content {
+        grid-template-columns: 2fr 5fr;
+        display: grid;
+        gap: 20px;
+
+    }
+</style>
+
+<body>
+    <div class="container max-w-xs mx-auto md:max-w-5xl ">
+        <div class="logo  text-3xl md:flex justify-between items-center">
+            <div class="logo items-center flex ml-20 md:ml-0">
+                <a href="index.html" class="ml-10 md:ml-0">
+                    <span class="font-bold ">Fudo</span>
+                    <span class="text-red-600  ">.</span>
+                </a>
+            </div>
+            <div class="flex font-semibold justify-between text-base md:text-lg mt-3">
+                <a class="no-underline text-gray-700 mr-4 hover:text-red-600" href="index.html">Home</a>
+                <a class="no-underline text-gray-700 mr-4 hover:text-red-600" href="product.html">Products</a>
+                <a class="no-underline text-gray-700 mr-4  hover:text-red-600" href="detail.html">About Us</a>
+                <a class="no-underline text-gray-700 mr-4  hover:text-red-600" href="">Contact Us</a>
+            </div>
+            <div class="flex mt-4 ml-10 md:ml-0">
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mx-2 mt-1" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                    </svg>
+                </a>
+                <a href="signin.html">
+                    <div
+                        class="text-red-600 rounded-md font-semibold text-sm mx-2 border-2 border-orange-600 px-4 py-1">
+                        Sign
+                        in</div>
+                </a>
+                <a href="signup.html">
+                    <div
+                        class="text-white bg-red-600 rounded-md font-semibold text-sm mx-2 border-2 border-red-600 px-4 py-1">
+                        Sign
+                        up</div>
+                </a>
+            </div>
+        </div>
+        <div class="banner">
+            <a href="">
+                <img srcset="img/banner.png 2x" alt="" class="my-10 rounded-md "></a>
+        </div>
+        <div class="content">
+
+            <div class="cols list-none font-semibold text-2xl mt-10 ">
+                <a href="" class="block  hover:underline ">Breakfast</a>
+                <a href="" class="block mt-5 hover:underline">Vegan</a>
+                <a href="" class="block mt-5 hover:underline">Meat</a>
+                <a href="" class="block mt-5 hover:underline">Dessert</a>
+                <a href="" class="block mt-5 hover:underline">Lunch</a>
+                <a href="" class="block mt-5 hover:underline ">Chocolate</a>
+            </div>
+
+            <div class="cols">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-10 my-10 ">
+                    <a href="">
+                        <div class="colums transition duration-700 ease-in-out hover:-translate-y-6 ">
+                            <img srcset="img/Sallad.png 2x" alt="">
+                            <h3 class="font-semibold text-base mt-4">Fresh and Healthy Mixed Mayonnaise Salad</h3>
+                            <span class="block my-3 text-red-600 font-semibold text-4xl">$30</span>
+                            <button class="w-full bg-black text-white font-semibold font-xm rounded-md py-2">Add To
+                                Cart</button>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="colums transition duration-700 ease-in-out hover:-translate-y-6">
+                            <img srcset="img/Creamy.png 2x" alt="">
+                            <h3 class="font-semibold text-base mt-4">The Creamiest Creamy Chicken</h3>
+                            <span class="block my-3 text-red-600 font-semibold text-4xl">$30</span>
+                            <button class="w-full bg-black text-white font-semibold font-xm rounded-md py-2">Add To
+                                Cart</button>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="colums transition duration-700 ease-in-out hover:-translate-y-6">
+                            <img srcset="img/fruity.png 2x" alt="">
+                            <h3 class="font-semibold text-base mt-4">Fruity Pancake with Orange & Blueberry</h3>
+                            <span class="block my-3 text-red-600 font-semibold text-4xl">$30</span>
+                            <button class="w-full bg-black text-white font-semibold font-xm rounded-md py-2">Add To
+                                Cart</button>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-10 mb-10">
+                    <a href="">
+                        <div class="colums transition duration-700 ease-in-out hover:-translate-y-6 ">
+                            <img srcset="img/Sallad.png 2x" alt="">
+                            <h3 class="font-semibold text-base mt-4">Fresh and Healthy Mixed Mayonnaise Salad</h3>
+                            <span class="block my-3 text-red-600 font-semibold text-4xl">$30</span>
+                            <button class="w-full bg-black text-white font-semibold font-xm rounded-md py-2">Add To
+                                Cart</button>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="colums transition duration-700 ease-in-out hover:-translate-y-6">
+                            <img srcset="img/Creamy.png 2x" alt="">
+                            <h3 class="font-semibold text-base mt-4">The Creamiest Creamy Chicken</h3>
+                            <span class="block my-3 text-red-600 font-semibold text-4xl">$30</span>
+                            <button class="w-full bg-black text-white font-semibold font-xm rounded-md py-2">Add To
+                                Cart</button>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="colums transition duration-700 ease-in-out hover:-translate-y-6">
+                            <img srcset="img/fruity.png 2x" alt="">
+                            <h3 class="font-semibold text-base mt-4">Fruity Pancake with Orange & Blueberry</h3>
+                            <span class="block my-3 text-red-600 font-semibold text-4xl">$30</span>
+                            <button class="w-full bg-black text-white font-semibold font-xm rounded-md py-2">Add To
+                                Cart</button>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <footer class="mb-20 ">
+            <hr class=" w-full my-10">
+            <div class="flex justify-between items-end ">
+                <div class="logo md:text-3xl">
+                    <a href="index.html">
+                        <span class="font-bold ">Fudo</span>
+                        <span class="text-red-600  ">.</span>
+                    </a>
+                </div>
+                <div class="text-xs md:text-lg font-semibold text-gray-600 ">
+                    <a href="" class=" mx-1 md:mx-2 hover:underline">Home</a>
+                    <a href="" class="  mx-1  md:mx-2 hover:underline">Products</a>
+                    <a href="" class="  mx-1 md:mx-2 hover:underline">About Us</a>
+                    <a href="" class=" mx-1 md:mx-2 hover:underline">Contact Us</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
