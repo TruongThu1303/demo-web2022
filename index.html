@@ -1,13 +1,282 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
-  </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class="container max-w-xs mx-auto md:max-w-5xl ">
+        <div class="logo  text-3xl md:flex justify-between items-center">
+            <div class="logo items-center flex ml-20 md:ml-0">
+                <a href="index.html" class="ml-10 md:ml-0">
+                    <span class="font-bold ">Fudo</span>
+                    <span class="text-red-600  ">.</span>
+                </a>
+            </div>
+
+            <div class="flex font-semibold justify-between text-base md:text-lg mt-3">
+                <a class="no-underline text-gray-700 mr-4 hover:text-red-600" href="index.html">Home</a>
+                <a class="no-underline text-gray-700 mr-4 hover:text-red-600" href="product.html">Products</a>
+                <a class="no-underline text-gray-700 mr-4  hover:text-red-600" href="detail.html">About Us</a>
+                <a class="no-underline text-gray-700 mr-4  hover:text-red-600" href="">Contact Us</a>
+            </div>
+            <div class="flex mt-4 ml-10 md:ml-0">
+                <a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mx-2 mt-1" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                    </svg>
+                </a>
+                <a href="signin.html">
+                    <div
+                        class="text-red-600 rounded-md font-semibold text-sm mx-2 border-2 border-orange-600 px-4 py-1">
+                        Sign
+                        in</div>
+                </a>
+                <a href="signup.html">
+                    <div
+                        class="text-white bg-red-600 rounded-md font-semibold text-sm mx-2 border-2 border-red-600 px-4 py-1">
+                        Sign
+                        up</div>
+                </a>
+            </div>
+        </div>
+        <div class="header md:grid md:grid-cols-2 my-20 items-center sm:grid-cols-1 xl:grid-cols-2">
+            <div class="font-bold text-7xl ">
+                <a href="">
+                    <button class="bg-pink-200 py-2 px-4 font-bold text-lg text-red-600 my-10">Quality Food</button>
+                    <span class="block py-5">Fastest </span>
+                    <span class="inline-block text-red-600 ">Delivery </span><span class="inline-block ml-4">
+                        &</span>
+                    <span class="inline-block py-5">Easy </span><span
+                        class="ml-4 inline-block text-red-600 py-5">Pickup</span>
+                </a>
+                <a href="">
+                    <p class="text-lg  text-gray-700 font-normal hover:underline mt-5">Best cooks and best delivery guys
+                        all
+                        at your service.
+                        Hot tasty
+                        food will reach
+                        you in 60 minutes.</p>
+                </a>
+                <div class="flex  text-sm my-5">
+
+                    <input class="border-2 px-5 py-3 text-gray-600 border-red-600 rounded-l-lg  w-3/5" type="text"
+                        placeholder="Enter your delivery location">
+
+                    <div class="bg-red-600  pt-3.5 px-7  rounded-r-lg text-white ">
+                        <a href="">
+                            <span>Discover</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="ease-in duration-300  hover:-translate-y-6">
+                <img src="" alt="" srcset="./img/1.png 2x">
+            </div>
+        </div>
+        <div class="product ">
+            <div class="text-center">
+                <h2 class="font-bold text-5xl">Our Popular Dishes</h2>
+                <p class="text-xs text-gray-600 my-10 w-full md:w-3/5 md:text-lg mx-auto">Lorem ipsum dolor sit amet,
+                    consectetuipisicing
+                    elit, sed
+                    do
+                    eiusmod tempor
+                    incididunt ut labore et dolore magna aliqut enim ad minim </p>
+            </div>
+            <div class="grid  grid-cols-1 gap-8 sm:grid-cols-3">
+                <a href="">
+                    <div class="colums max-w-full transition duration-700 ease-in-out hover:-translate-y-8">
+                        <img src="img/2.png" alt="">
+                        <h3 class=" font-semibold text-base text-red-600 my-5">
+                            Big and Juicy Wagyu Beef Cheeseburger
+                        </h3>
+                        <div class="flex my-5">
+                            <img srcset="img/Timer.png 2x" alt="" class="mr-2"><span class="mr-4">30 Minutes</span>
+                            <img srcset="img/ForkKnife.png 2x" alt="" class="mr-2"><span>Snack</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="colums max-w-full transition duration-700 ease-in-out hover:-translate-y-8">
+                        <img src="img/3.png" alt="">
+                        <h3 class="font-semibold text-base text-red-600 my-5">
+                            Fresh Lime Roasted Salmon
+                        </h3>
+                        <div class="flex my-5">
+                            <img srcset="img/Timer.png 2x" alt="" class="mr-2"><span class="mr-4">30 Minutes</span>
+                            <img srcset="img/ForkKnife.png 2x" alt="" class="mr-2"><span>Snack</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="colums max-w-full transition duration-700 ease-in-out hover:-translate-y-8">
+                        <img src="img/4.png" alt="">
+                        <h3 class="font-semibold text-base text-red-600 my-5">
+                            The Best Easy One Pot Chicken and Rice
+                        </h3>
+                        <div class="flex my-5">
+                            <img srcset="img/Timer.png 2x" alt="" class="mr-2"><span class="mr-4">30 Minutes</span>
+                            <img srcset="img/ForkKnife.png 2x" alt="" class="mr-2"><span>Snack</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10 my-12">
+                <a href="">
+                    <div class="colums max-w-full transition duration-700 ease-in-out hover:-translate-y-8">
+                        <img src="img/5.png" alt="">
+                        <h3 class=" font-semibold text-base text-red-600 my-5">
+                            Fresh and Healthy Mixed Mayonnaise
+                        </h3>
+                        <div class="flex my-5">
+                            <img srcset="img/Timer.png 2x" alt="" class="mr-2"><span class="mr-4">30 Minutes</span>
+                            <img srcset="img/ForkKnife.png 2x" alt="" class="mr-2"><span>Snack</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="colums max-w-full transition duration-700 ease-in-out hover:-translate-y-8">
+                        <img src="img/6.png" alt="">
+                        <h3 class="font-semibold text-base text-red-600 my-5">
+                            The Creamiest Creamy Chicken
+                        </h3>
+                        <div class="flex my-5">
+                            <img srcset="img/Timer.png 2x" alt="" class="mr-2"><span class="mr-4">30 Minutes</span>
+                            <img srcset="img/ForkKnife.png 2x" alt="" class="mr-2"><span>Snack</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="colums max-w-full transition duration-700 ease-in-out hover:-translate-y-8 ">
+                        <img src="img/Mask Group (5).png" alt="">
+                        <h3 class="font-semibold text-base text-red-600 my-5">
+                            Fruity Pancake with Orange & Blueberry
+                        </h3>
+                        <div class="flex my-5">
+                            <img srcset="img/Timer.png 2x" alt="" class="mr-2"><span class="mr-4">30 Minutes</span>
+                            <img srcset="img/ForkKnife.png 2x" alt="" class="mr-2"><span>Snack</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+        <div class="choose">
+            <div class="justify-between flex items-center">
+                <h2 class="font-bold text-2xl md:text-5xl">Categories</h2>
+                <a href="">
+                    <div
+                        class=" text-red-600 border-2 font-semibold border-red-600 px-3 py-3 rounded-md hover:bg-red-600 hover:text-white">
+                        View All Categories
+                    </div>
+                </a>
+            </div>
+            <div class="grid grid-cols-3 md:grid-cols-6 gap-10 my-10 ">
+                <a href="">
+                    <div class="colums text-center transition duration-700 ease-in-out hover:-translate-y-6">
+                        <img srcset="img/Breakfast.png 2x" alt="" class="ml-4">
+                        <span class="font-semibold text-lg font-semibold text-lg">Breakfast</span>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="colums text-center transition duration-700 ease-in-out hover:-translate-y-6">
+                        <img srcset="img/Vegan.png 2x" alt="" class="ml-4">
+                        <span class="font-semibold text-lg font-semibold text-lg">Vegan</span>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="colums text-center transition duration-700 ease-in-out hover:-translate-y-6">
+                        <img srcset="img/Meat.png 2x" alt="" class="ml-4">
+                        <span class="font-semibold text-lg font-semibold text-lg">Meat</span>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="colums text-center transition duration-700 ease-in-out hover:-translate-y-6">
+                        <img srcset="img/Dessert.png 2x" alt="" class="ml-4">
+                        <span class="font-semibold text-lg font-semibold text-lg">Dessert</span>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="colums text-center transition duration-700 ease-in-out hover:-translate-y-6">
+                        <img srcset="img/Lunch.png 2x" alt="" class="ml-4">
+                        <span class="font-semibold text-lg font-semibold text-lg">Lunch</span>
+                    </div>
+                </a>
+                <a href="">
+                    <div class="colums text-center transition duration-700 ease-in-out hover:-translate-y-6">
+                        <img srcset="img/Chocolate.png 2x" alt="" class="ml-4">
+                        <span class="font-semibold text-lg font-semibold text-lg">Chocolate</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="contact ">
+            <h3 class="font-bold text-5xl text-center my-20">Contact us</h3>
+            <div class="grid grid-cols-2 gap-10 text-xs md:text lg">
+                <div class="cols ">
+                    <h3 class="text-lg text-gray-400 my-2">NAME</h3>
+                    <input type="text" class="w-full border-2 border-gray-200 text-gray-400 py-4 px-4 rounded-md"
+                        placeholder="Enter your name...">
+                </div>
+                <div class="cols">
+                    <h3 class="text-lg text-gray-400 my-2">EMAIL ADDRESS</h3>
+                    <input type="text" class="w-full border-2 border-gray-200 text-gray-400 py-4 px-4 rounded-md"
+                        placeholder="Your email address...">
+                </div>
+            </div>
+
+            <div class="grid grid-cols-2 gap-10 my-5 my-2">
+                <div class="cols ">
+                    <h3 class="text-lg text-gray-400 my-2">SUBJECT</h3>
+                    <input type="text" class="w-full border-2 border-gray-200 text-gray-400 py-4 px-4 rounded-md"
+                        placeholder="Enter subject...">
+                </div>
+                <div class="cols">
+                    <h3 class="text-lg text-gray-400 my-2">ENQUIRY TYPE</h3>
+                    <select name="" id="" class="w-full border-2 border-gray-200 text-gray-400 py-4 px-4 rounded-md">
+                        <option value="">
+                            Advertising</option>
+
+                    </select>
+                </div>
+            </div>
+            <div class="my-5">
+                <h3 class="text-lg text-gray-400 my-2">MESSAGE</h3>
+                <textarea name="" id="" cols="30" rows="10" aria-valuetext=""
+                    class="w-full border-2 border-gray-200 text-gray-400 py-4 px-4 rounded-md">Enter your messages...</textarea>
+            </div>
+            <div class="text-center">
+                <button
+                    class="hover:-translate-y-1 hover:scale-110 ease-in duration-300 bg-black text-white font-semibold text-base rounded-md px-12 py-4 ">Submit</button>
+            </div>
+        </div>
+        <footer class="mb-20 ">
+            <hr class=" w-full my-10">
+            <div class="flex justify-between items-end ">
+                <div class="logo md:text-3xl">
+                    <a href="index.html">
+                        <span class="font-bold ">Fudo</span>
+                        <span class="text-red-600  ">.</span>
+                    </a>
+                </div>
+                <div class="text-xs md:text-lg font-semibold text-gray-600 ">
+                    <a href="" class=" mx-1 md:mx-2 hover:underline">Home</a>
+                    <a href="" class="  mx-1  md:mx-2 hover:underline">Products</a>
+                    <a href="" class="  mx-1 md:mx-2 hover:underline">About Us</a>
+                    <a href="" class=" mx-1 md:mx-2 hover:underline">Contact Us</a>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+</body>
+
 </html>
