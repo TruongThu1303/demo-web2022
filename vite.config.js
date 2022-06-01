@@ -5,12 +5,12 @@ module.exports = defineConfig({
   build: {
     rollupOptions: {
       input: {
-        main: resolve(__dirname, 'index.html'),
-        Detail: resolve(__dirname, 'nested/detail.html'),
-        Products : resolve(__dirname, 'nested/product.html'),
-        Signin: resolve(__dirname, 'nested/signin.html'),
-        Signup: resolve(__dirname, 'nested/signup.html')
-      }
-    }
-  }
+        Menu: resolve(__dirname, 'index.html'),
+        Detail: resolve(__dirname, 'detail.html'),
+        Products : resolve(__dirname, 'product.html'),
+        Signin: resolve(__dirname, 'signin.html'),
+        Signup: resolve(__dirname, 'signup.html')
+      },
+    },
+  },
 })
